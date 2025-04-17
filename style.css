@@ -936,7 +936,6 @@ body{
 .why-choose .choose-left p{
 	margin-bottom:35px;
 }
-.why-choose .choose-left .list{}
 .why-choose .choose-left .list li {
 	color: #868686;
 	margin-bottom: 12px;
@@ -954,7 +953,7 @@ body{
 	font-size:14px;
 	border-radius:100%;
 	padding-left:2px;
-	margin-right:16px;
+	margin-right:8px;
 }
 /* Start Faq CSS */
 .why-choose{
@@ -3932,9 +3931,6 @@ body{
 	background:#000;
 	opacity:0.1;
 }
-.footer .single-footer{
-	
-}
 .footer .single-footer .social{
 	margin-top:25px;
 }
@@ -3950,7 +3946,7 @@ body{
 	width: 34px;
 	line-height: 34px;
 	text-align: center;
-	border: 1px solid #fff;
+	/* border: 1px solid #fff; */
 	text-align: center;
 	padding: 0;
 	border-radius: 100%;
@@ -3962,9 +3958,6 @@ body{
 	color:#1A76D1;
 	background:#fff;
 	border-color:transparent;
-}
-.footer .single-footer .social li a i{
-	
 }
 .footer .single-footer.f-link li a i{
 	margin-right:10px;
@@ -4007,6 +4000,28 @@ body{
 	width: 50px;
 	background: #fff;
 }
+
+.footer .single-footer .logo{
+	color:#fff;
+	font-size:20px;
+	font-weight:600;
+	text-transform:capitalize;
+	margin-bottom:40px;
+	padding-bottom:20px;
+	text-transform:capitalize;
+	position:relative;
+}
+
+.footer .single-footer .logo::before{
+	position: absolute;
+	content: "";
+	left: 0;
+	bottom: 0px;
+	height: 3px;
+	width: 50px;
+	background: #fff;
+}
+
 .footer .single-footer .time-sidual{
 	margin-top:15px;
 }
